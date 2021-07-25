@@ -1,6 +1,8 @@
 # btc_price
 Package to get btc prize in an easy way.
+# Installation
 
+pip install btc-price
 # DOCS
 
 # Get the bitcoin price in any currency:
