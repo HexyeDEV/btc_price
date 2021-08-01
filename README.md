@@ -1,16 +1,16 @@
 # btc_price
 Package to get btc prize in an easy way.
-# Installation
 
-pip install btc-price
 # DOCS
 
 # Get the bitcoin price in any currency:
 
-from btc_price import *
-print(btcprice("EUR"))
+print(btcprice("USD"))
 
-# See how many bitcoin you can get with a certain amount of dollars:
+# See how many bitcoin you can get with a certain amount of a  currency:
 
-from btcprize import *
-print(convert(120.50))
+print(currency_to_btc(120.50, "USD"))
+
+# See how much is a certain amount of bitcoin in a currency:
+
+print(btc_to_currency(0.2, "USD"))
